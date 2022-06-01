@@ -1,0 +1,6 @@
+
+o	java:S116"URename this field "id_persona" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶áÖÄúÿÿÿÿ
+r	java:S116""^Rename this field "docente_tipo_tiempo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ÉŞ%
+n	java:S116$"YRename this field "docente_titulo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¿í
+X	java:S125 "<This block of commented-out lines of code should be removed.(Ûñ€¡8ïû†°Æ/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³´üÎ

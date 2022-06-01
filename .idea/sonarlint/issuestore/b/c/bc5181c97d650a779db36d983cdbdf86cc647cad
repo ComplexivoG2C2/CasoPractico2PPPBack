@@ -1,0 +1,8 @@
+
+<
+java:S1452/"&Remove usage of generic wildcard type.(¨Ö¹¬
+Q	java:S125 "<This block of commented-out lines of code should be removed.(¨Ö¹¬
+l
+java:S1128"QRemove this unused import 'com.tecazuay.practicas.exception.BadRequestException'.(óŠœÁûÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(á×â

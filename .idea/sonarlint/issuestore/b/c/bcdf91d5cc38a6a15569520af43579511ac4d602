@@ -1,0 +1,7 @@
+
+c	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñË˜¬
+r
+java:S1128"PRemove this unused import 'com.tecazuay.practicas.model.Secondary.VDocentesppp'.(®³˜Ðüÿÿÿÿ8¶Ó­¯Æ/
+|
+java:S1128"ZRemove this unused import 'com.tecazuay.practicas.repository.Secondary.DocenteRepository'.(òßòæùÿÿÿÿ8¶Ó­¯Æ/
+m	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðž¥Ï8¶Ó­¯Æ/

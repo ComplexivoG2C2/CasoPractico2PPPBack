@@ -1,0 +1,5 @@
+
+q	java:S116!"\Rename this field "fecha_designacion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èğ¥
+i	java:S116$"TRename this field "fecha_fin" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ†ûè
+c	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š’ù
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÈã³üÿÿÿÿ
