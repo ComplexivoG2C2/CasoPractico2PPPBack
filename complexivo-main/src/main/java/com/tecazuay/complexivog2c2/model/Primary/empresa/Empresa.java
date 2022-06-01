@@ -8,7 +8,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Date;
-
+///////////segundo comentario
 @Table(name="empresa")
 @Entity
 @Getter
