@@ -40,7 +40,7 @@ public class Empresa {
     @Temporal(TemporalType.DATE)
     private Date fechaCreacion;
 
-
+//primer comentario muestra
     private String ciudad;
 
     private String direccion;
