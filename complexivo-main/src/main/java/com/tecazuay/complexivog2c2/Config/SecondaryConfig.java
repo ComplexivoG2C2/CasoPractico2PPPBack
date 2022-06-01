@@ -22,6 +22,8 @@ import java.util.Map;
         transactionManagerRef = "transactionManagerSecondary",
         basePackages = {"com.tecazuay.complexivog2c2.repository.Secondary"}
 )
+
+//Prueba Comentario DB
 public class SecondaryConfig {
     @Autowired
     @Qualifier("secondaryDataSource")
