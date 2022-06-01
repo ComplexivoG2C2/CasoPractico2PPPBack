@@ -15,6 +15,7 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+// Comentario prueba
 public class Empresa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
