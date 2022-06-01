@@ -23,7 +23,7 @@ public class CoordinadorCarrera implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+//Cambio de Oscar
     private String cedula;
 
     @OneToMany(targetEntity = TutorAcademicoDelegados.class, mappedBy = "coordinadorCarrera")
