@@ -12,6 +12,8 @@ import org.thymeleaf.templateresolver.ITemplateResolver;
 
 import java.util.Collections;
 
+//cuarto comentario
+
 @Configuration
 public class TemplateConfig implements WebMvcConfigurer {
     private static final String EMAIL_TEMPLATE_ENCODING = "UTF-8";
