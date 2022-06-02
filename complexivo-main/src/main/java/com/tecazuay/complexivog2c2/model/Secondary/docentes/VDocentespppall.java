@@ -35,4 +35,6 @@ public class VDocentespppall implements Serializable {
     private String docente_tipo_tiempo;
 
     private String docente_titulo;
+
+    // comentario
 }
