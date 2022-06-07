@@ -1,5 +1,9 @@
 package com.tecazuay.complexivog2c2.service.Anexos;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.tecazuay.complexivog2c2.dto.alumnos.AlumnosCiclosResponse;
 import com.tecazuay.complexivog2c2.dto.anexos.Anexo3Request;
 import com.tecazuay.complexivog2c2.dto.anexos.Anexo3Response;
@@ -9,15 +13,12 @@ import com.tecazuay.complexivog2c2.model.Primary.Anexos.Anexo3;
 import com.tecazuay.complexivog2c2.model.Primary.proyecto.ProyectoPPP;
 import com.tecazuay.complexivog2c2.model.Secondary.alumnos.VCicloAlumnos;
 import com.tecazuay.complexivog2c2.repository.Primary.Anexos.Anexo3Repository;
-import com.tecazuay.complexivog2c2.repository.Primary.designaciones.ResponsablePPPRepository;
 import com.tecazuay.complexivog2c2.repository.Primary.proyecto.ProyectoRepository;
+import com.tecazuay.complexivog2c2.repository.Primary.designaciones.ResponsablePPPRepository;
 import com.tecazuay.complexivog2c2.repository.Primary.usuario.UsuarioRepository;
 import com.tecazuay.complexivog2c2.repository.Secondary.alumnos.VCicloAlumnosRepository;
 import com.tecazuay.complexivog2c2.repository.Secondary.carreras.CarrerasRepository;
 import com.tecazuay.complexivog2c2.repository.Secondary.personas.PersonasRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -92,6 +93,15 @@ public class Anexo3Service {
         throw new BadRequestException("No existe el proyecto con id: " + anexo3Request.getIdProyectoPPP());
     }
 
+  /*  //enviar datos a anexo4
+
+    public Anexo3Response getByProyecto(Long idProyecto){
+        Boolean op= proyectoRepository.existsById(idProyecto);
+        if(op){
+            Optional<Anexo3> optional=anexo3Repository.
+        }
+
+    }*/
 
     public Boolean update(Anexo3Request anexo3Request) {
         Optional<Anexo3> op = anexo3Repository.findById(anexo3Request.getId());
