@@ -1,0 +1,43 @@
+
+D
+java:S19053")Remove this unnecessary cast to "String".(Âð‚âøÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(¬Û·½üÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(’Ê¶Þ
+M	java:S106T"9Replace this use of System.out or System.err by a logger.(»û‡e
+<	java:S131U""Add a default case to this switch.(€„—÷þÿÿÿÿ
+?
+java:S1905{")Remove this unnecessary cast to "String".(ëÒë
+M
+java:S1144 "1Remove this unused private "getNombreRol" method.(÷ þöûÿÿÿÿ
+A
+java:S5411…"*Use the primitive boolean expression here.(×Ö‹Þ
+M
+java:S5411‡"*Use the primitive boolean expression here.(¹Ï€ïúÿÿÿÿ8˜‹µÆ/
+A
+java:S5411‰"*Use the primitive boolean expression here.(ç‰‘Á
+A
+java:S5411‹"*Use the primitive boolean expression here.(ßøÙâ
+@
+java:S5411"*Use the primitive boolean expression here.(ê§­L
+A
+java:S5411"*Use the primitive boolean expression here.(ˆæøö
+g
+java:S3655Ž"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Šð†Ä
+f
+java:S3655™"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Å¥÷3
+l
+java:S3655Œ"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(³ü’ôùÿÿÿÿ
+f
+java:S3655ˆ"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Å¥÷3
+g
+java:S3655Š"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(’è¤ž
+l
+java:S3655†"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÛÆ„‡ûÿÿÿÿ
+l
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(àŠ›Êøÿÿÿÿ
+g
+java:S3655•"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(òÈÅå
+l
+java:S3655—"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ä§¡Ìÿÿÿÿÿ
+^
+java:S2583S"CChange this condition so that it does not always evaluate to "true"(¶Ôçúÿÿÿÿ
