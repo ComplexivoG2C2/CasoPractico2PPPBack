@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  app:
+    image: 'practicas-ista:latest'
+    build:
+      context: .
+    container_name: app
