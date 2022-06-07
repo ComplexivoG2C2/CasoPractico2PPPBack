@@ -1,5 +1,6 @@
 package com.tecazuay.complexivog2c2.service.Anexos;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,22 +26,17 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
+@RequiredArgsConstructor
 public class Anexo3Service {
 
-    @Autowired
-    private Anexo3Repository anexo3Repository;
-    @Autowired
-    private ProyectoRepository proyectoRepository;
-    @Autowired
-    private UsuarioRepository usuarioRepository;
-    @Autowired
-    private ResponsablePPPRepository responsablePPPRepository;
-    @Autowired
-    private PersonasRepository personasRepository;
-    @Autowired
-    private VCicloAlumnosRepository vCicloAlumnosRepository;
-    @Autowired
-    private CarrerasRepository carrerasRepository;
+
+    private final Anexo3Repository anexo3Repository;
+    private final ProyectoRepository proyectoRepository;
+    private final UsuarioRepository usuarioRepository;
+    private final ResponsablePPPRepository responsablePPPRepository;
+    private final PersonasRepository personasRepository;
+    private final VCicloAlumnosRepository vCicloAlumnosRepository;
+    private final CarrerasRepository carrerasRepository;
 
     public AlumnosCiclosResponse getDatosAlumno (String cedula){
         Optional<VCicloAlumnos> optional=vCicloAlumnosRepository.findFirstByCedulaOrderByCicloDesc(cedula);
@@ -93,15 +89,6 @@ public class Anexo3Service {
         throw new BadRequestException("No existe el proyecto con id: " + anexo3Request.getIdProyectoPPP());
     }
 
-  /*  //enviar datos a anexo4
-
-    public Anexo3Response getByProyecto(Long idProyecto){
-        Boolean op= proyectoRepository.existsById(idProyecto);
-        if(op){
-            Optional<Anexo3> optional=anexo3Repository.
-        }
-
-    }*/
 
     public Boolean update(Anexo3Request anexo3Request) {
         Optional<Anexo3> op = anexo3Repository.findById(anexo3Request.getId());
