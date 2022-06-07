@@ -1,5 +1,0 @@
-*.gz
-log/log-file.LOG
-*.LOG
-log
-log/*
